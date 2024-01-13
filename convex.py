@@ -7,7 +7,7 @@ from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 
 
-class ConexSearchAPIRetriever(BaseRetriever):
+class ConvexSearchAPIRetriever(BaseRetriever):
     """Tavily Search API retriever."""
 
     k: int = 10
